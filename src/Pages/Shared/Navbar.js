@@ -22,6 +22,14 @@ const Navbar = () => {
           location.pathname === "/my-jobs"
             ? "text-blue-500 border-b-2 border-b-blue-500 pb-1"
             : ""
+        } ${
+          location.pathname === "/my-jobs/job-application"
+            ? "text-blue-500 border-b-2 border-b-blue-500 pb-1"
+            : ""
+        } ${
+          location.pathname === "/my-jobs/application-status"
+            ? "text-blue-500 border-b-2 border-b-blue-500 pb-1"
+            : ""
         }`}
       >
         <Link to="/my-jobs">My Jobs</Link>
@@ -40,6 +48,10 @@ const Navbar = () => {
           location.pathname === "/my-payment"
             ? "text-blue-500 border-b-2 border-b-blue-500 pb-1"
             : ""
+        }${
+          location.pathname === "/my-payment/invoices"
+            ? "text-blue-500 border-b-2 border-b-blue-500 pb-1"
+            : ""
         }`}
       >
         <Link to="/my-payment">My Payment</Link>
@@ -47,7 +59,7 @@ const Navbar = () => {
     </>
   );
   return (
-    <div className="navbar bg-base-100 ">
+    <div className="navbar bg-base-100 shadow-xl shadow-blue-200 ">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">

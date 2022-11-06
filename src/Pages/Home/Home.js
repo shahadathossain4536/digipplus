@@ -3,7 +3,7 @@ import logo from "../../image/logoipsum-226.svg";
 import { FaRegLightbulb } from "react-icons/fa";
 const Home = () => {
   return (
-    <div className="px-[200px]">
+    <div className="px-[200px] py-6">
       <div className="">
         <div className="flex items-center justify-center">
           <img className="justify-center" src={logo} alt="" />
