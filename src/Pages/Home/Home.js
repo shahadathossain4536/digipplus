@@ -3,7 +3,7 @@ import logo from "../../image/logoipsum-226.svg";
 import { FaRegLightbulb } from "react-icons/fa";
 const Home = () => {
   return (
-    <div className="px-[200px] py-6">
+    <div className="px-2 lg:px-[200px] py-6">
       <div className="">
         <div className="flex items-center justify-center">
           <img className="justify-center" src={logo} alt="" />
@@ -13,14 +13,14 @@ const Home = () => {
         </h2>
       </div>
       <div className="flex items-center justify-center py-6">
-        <div className="w-[850px] ">
+        <div className="lg:w-[850px] ">
           <p className="text-right py-2">
             Announcements{" "}
             <span className="inline">
               <FaRegLightbulb className="inline" />
             </span>
           </p>
-          <p className="bg-blue-200 w-[850px] text-blue-600 font-semibold inline-block py-2 px-2 rounded">
+          <p className="bg-blue-200 lg:w-[850px] text-blue-600 font-semibold inline-block py-2 px-2 rounded">
             We are working on adding Project and Internship Details, So just
             fill up profile only
           </p>
